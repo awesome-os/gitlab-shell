@@ -79,3 +79,13 @@ This repository is mirrored to security and dev mirrors. Mirror syncs happen wit
 
 See the `LICENSE` file for licensing information as it pertains to files in
 this repository.
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/gitlab-shell@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://go/gitlab-shell?from=repository://github.com/awesome-os/gitlab-shell@main"
+```
